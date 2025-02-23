@@ -1,69 +1,25 @@
-<button class='button'>SUBSCRIBE</button>
-<button class='JOIN'>JOIN</button>
-<button class='tweet'>Tweet</button>
-<style>
-    .button
-    {
-        background-color:rgb(240, 58, 58);
-        font-size:12px;
-        border-radius:5px;
-        cursor:pointer;
-        height:50px;
-        width:100px;
-        border:none;
-        margin-right:15px;
-        color:rgb(255,255,255); 
 
-    }
-    .JOIN
-    {
-        background-color:white;
-        font-size:17px;
-        border-radius:5px;
-        cursor:pointer;
-        height:50px;
-        width:100px;
-        border-color:rgb(168, 168, 228);
-        color:rgb(115, 115, 243);  
-        margin-right:15px;
-
-        
-
-    }
-    .JOIN:hover{
-        background-color: rgb(64, 154, 251);
-
-    }
-    .Tweet
-    {
-        background-color:rgb(59, 144, 234);
-        font-size:25px;
-        border-radius:500px;
-        cursor:pointer;
-        height:50px;
-        width:100px;
-        border-color:rgb(135, 135, 249);
-        color:white;  
-        margin-right:15px;
-
-    }
-     
-</style>
-
+<!--Create a button with the text "Click" inside-->
 <button class="'click">Click </button>
 <style>
     .click{   
         color:black
     }
 </style>
+<!--Create 2 buttons: one with your name and one with your favorite food-->
 <button class="'simon">simon </button>
 <button class="'chocolate">chocolate </button>
+<br>
+<!--Create a paragraph below the previous paragraph and write something you did today in comment lines)-->
 <p>Hello world!</p>
 <p> Today I went to market to buy grocery and vegetables</p>
-
+<!--Make the link open in a new tab-->
 <a href="https://www.google.com/">Search with google</a>
-
+<!--Copy the design with a link to amazon.com-->
+<br>
 <section>
+    <!--Copy the design with a link to amazon.com-->
+    
 <a href="https://www.amazon.com/">Back to amazon</a> 
 <p>Nike black shoe running</p>
 <p>$39 in stock</p>
@@ -73,28 +29,33 @@
 </section>
 
 <hr>
+<!--uber-->
  
 <section>
     <button class="uber">request now</button>
 </section>
 <br>
 <br>
+<!--amazon-->
 <section>
     <button class="amazon">Add to cart</button>
 </section>
 <br>
 <br>
+<!--Github-->
 <section>
     <button class="Github">Sign up</button>
 </section>
 <br>
 <br>
+<!--bootstrap-->
 <section>
     <button class="bootstrap">Get started</button>
     <button class="down">Download</button>
 </section>
 <br>
 <br>
+<!--linkedin-->
 <section>
     <button class="linkedin">apply on company website</button>
     <button class="downl">save</button>
@@ -105,9 +66,16 @@
         background-color:black;
         font-size:10px;
         color:white;
-        border:none; 
-        height:80px;
-        width:170px;
+        border:none;  
+        transition:opacity 10s;
+
+    } 
+    .uber:hover{
+        opacity:0.7;
+    }
+    .uber:active{ 
+        background-color:rgb(222, 98, 36);
+        color:rgb(183, 223, 235);
     }
     .amazon
     {
@@ -115,10 +83,18 @@
         font-size:10px;
         color:black; 
         font-weight: bold;  
-        height:80px;
-        width:170px;
+        height:20px;
+        width:70px;
         border-radius:500px;
         border:none;
+        transition:opacity 1s;
+    }
+    .amazon:hover{
+        opacity:0.7;
+    }
+    .amazon:active{ 
+        background-color:rgb(140, 21, 65);
+        color:rgb(183, 223, 235);
     }
     .Github
     {
@@ -126,10 +102,18 @@
         font-size:10px;
         color:white; 
         font-weight: bold;  
-        height:80px;
-        width:170px;
+        height:30px;
+        width:70px;
         border-radius:10px;
         border:none;
+        transition:opacity 1s;
+    }
+    .Github:hover{
+        opacity:0.7;
+    }
+    .Github:active{ 
+        background-color:rgb(32, 200, 147);
+        color:rgb(183, 223, 235);
     }
     .bootstrap
     {
@@ -137,44 +121,76 @@
         font-size:10px;
         color:white; 
         font-weight: bold;  
-        height:80px;
-        width:170px;
+        height:20px;
+        width:70px;
         border-radius:10px;
         border:none;
+        transition:opacity 1s;
+    }
+    .bootstrap:hover{
+        opacity:0.7;
+    }
+    .bootstrap:active{ 
+        background-color:rgb(90, 149, 103);
+        color:rgb(183, 223, 235);
     }
     .down
     { 
 
         font-size:10px;  
         font-weight: bold; 
-        height:80px;
-        width:170px;
+        height:20px;
+        width:70px;
         border-radius:10px;
         color:rgb(108,117,125);
         border-color: rgb(121,82,179);
+        transition:opacity 1s;
     }
+    .downl:hover{
+        opacity:0.7;
+    }
+    .down:active{ 
+        background-color:rgb(167, 134, 143);
+        color:rgb(35, 61, 189);
+    
+
     .linkedin
     {
         background-color:rgb(10,102,194); 
         font-size:10px;
         color:white; 
         font-weight: bold; 
-        height:80px;
-        width:170px;
+        height:20px;
+        width:70px;
         border-radius:50px;
         border:none;
+        transition:opacity 1s;
+    }
+    .linkedin:hover{
+        opacity:0.9;
+    }
+    .linkedin:active{ 
+        background-color:green;
+        color:red;
     }
     .downl
     { 
 
         font-size:10px;  
         font-weight: bold;
-        height:80px;
-        width:170px;
+        height:20px;
+        width:70px;
         border-radius:500px; 
         color:rgb(108,117,125);
         font-size:20px;
         border-color:rgb(10,102,194);
+    }
+    .downl:hover{
+        opacity:0.7;
+    }
+    .downl:active{ 
+        background-color:rgb(32, 200, 147);
+        color:rgb(183, 223, 235);
     }
 
 </style>
